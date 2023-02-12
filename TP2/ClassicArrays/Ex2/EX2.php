@@ -5,15 +5,15 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Exercice 1</title>
+  <title>Exercise 2</title>
 </head>
 
 <body>
   <?php
-    $ages = array('Ahmed' => 34, 'Ikram' => 19, 'Imane' => 24);
-    foreach($ages as $person => $age) {
-        echo "<p>{$person} a {$age} ans.</p>";
-    }
+    $moisFr = array(1=>'Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Aout', 'Septembre', 
+    'Octobre', 'Novembre', 'Décembre');
+
+    
     ?>
 </body>
 
