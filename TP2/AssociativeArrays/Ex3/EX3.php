@@ -21,13 +21,28 @@
     foreach($arr as $name => $grade) {
         echo "<p>Nom: {$name}, Note = {$grade} </p>";
     };
+
+
     // Question 3
-    
+    echo "Displaying the table";
+
+        echo '<table border="1">';
+        echo '<tr><th>Nom</th><th>Note</th></tr>';
+        foreach($arr as $key => $value){
+            echo '<tr>';
+            
+            echo '<td>'.$key.'</td>';
+            echo '<td>'.$value.'</td>';
+
+            echo '</tr>';
+        }
+        echo '</table>';
+
     // Question 4
     arsort($arr); // Returns the sorted associative array by values in descending order
     foreach($arr as $name => $grade) { 
         // We only need the first element
-        echo "<p>L\'etudiant ayant la note la plus elevee est: {$name}</p>";
+        echo "<p>L'etudiant ayant la note la plus elevee est: {$name}</p>";
         break;
     }
     // Question 5

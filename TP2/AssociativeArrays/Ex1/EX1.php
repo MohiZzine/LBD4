@@ -10,12 +10,30 @@
 
 <body>
   <?php
-    // Question 1, 2 et 3
+    // Question 1
     $ages = array('Ahmed' => 34, 'Ikram' => 19, 'Imane' => 24);
+
+    // Question 2
     foreach($ages as $person => $age) {
         echo "<p>{$person} a {$age} ans.</p>";
     }
     ?>
+
+  <table border="1">
+
+  <?php
+      
+      foreach($ages as $key => $value){
+          echo '<tr>';
+          
+          echo '<td>'.$key.'</td>';
+          echo '<td>'.$value.'</td>';
+
+          echo '</tr>';
+      }
+  ?>
+  </table>
+
 </body>
 
 </html>
