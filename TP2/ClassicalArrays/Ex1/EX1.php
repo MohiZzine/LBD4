@@ -11,16 +11,20 @@
 <body>
 
   <?php
+
+    // Question 1
     function display($array) {
       foreach($array as $element) {
       echo "{$element}";
       }
     } 
     
+    // Question 2
     function sortTable($array) {
     return sort($array);
     }
 
+    // Question 3
     function deleteDoublons($array) {
       for ($i = 0; $i < count($array); $i++) {
         for ($j = $i + 1; $j < count($array); $j++) {

@@ -12,6 +12,7 @@
 
   <?php
 
+  // Question 1
   $notes = array(12, 14.5, 16, 8, 11, 20, 5, 19, 17, 15, 13, 12, 17, 18.5, 6);
     function displayArray($array) {
       for ( $i = 1; $i <= count($array); $i++) {
@@ -23,6 +24,8 @@
   ?>
 
   <?php
+
+  // Question 2
   function meanArray($array) {
     $length = count($array);
     $sum = 0;
@@ -37,6 +40,8 @@
   ?>
 
   <?php
+  
+    // Question 3
     function over10($array) {
     $output = 0;
     foreach ($array as $elem) {
@@ -51,6 +56,8 @@
   ?>
 
   <?php
+
+  // Question 4
   function perfectScore($array) {
     $output = 0;
     foreach($array as $note) {
@@ -67,6 +74,7 @@
 
   <?php
   
+  // Question 5
   function swapArrayElements($arr, $i, $j) {
     $val1 = $arr[$i];
     $val2 = $arr[$j];
@@ -91,6 +99,8 @@
   ?>
 
   <?php
+
+  // Question 6
   function searchIndex($array, $value) {
     for($i = 0; $i < count($array); $i++) {
       if ($array[$i] == $value) {

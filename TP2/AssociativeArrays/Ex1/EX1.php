@@ -10,6 +10,7 @@
 
 <body>
   <?php
+    // Question 1, 2 et 3
     $ages = array('Ahmed' => 34, 'Ikram' => 19, 'Imane' => 24);
     foreach($ages as $person => $age) {
         echo "<p>{$person} a {$age} ans.</p>";
