@@ -10,7 +10,6 @@
 
 <body>
   <?php
-    echo "<br>on considere le tableau suivant : <br>";
     $arr = array(13, 140, 141, 318, 197, 189, 112, 20, 130, 8, 192, 19, 9, 317, 210);
 
     display($arr);

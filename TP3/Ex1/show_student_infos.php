@@ -1,3 +1,4 @@
+<?php include '../../TP2/AssociativeArrays/Ex8/EX8.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +8,6 @@
   <title>Show Student Infos</title>
 </head>
 <body>
-  
+  <?php echo $modules ?>
 </body>
 </html>
